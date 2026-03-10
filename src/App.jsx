@@ -31,7 +31,7 @@ function App() {
       </header>
     
       <section className='flex flex-col justify-center mx-auto items-center max-w-[400px] text-lg mt-40 mb-10'>
-          <p className=''>
+          <p className='mt-10'>
             <span class
             Name='font-bold'> BUSY BAR</span> est un dispositif multi-outil de product avec un écran LED pixelé .Miniteur de concentration avec fonction de blocage des distrations sur votre téléphone et PC .Entièrement personnalisable, open-source et prêt pour la maison connectée.
           </p>
