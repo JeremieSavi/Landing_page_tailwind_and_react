@@ -5,7 +5,7 @@ function App() {
   return (
     <>
     {/* Vidéo */}
-    <video src="./public/welcome.mp4" autoPlay loop muted className='absolute -z-10 object-cover w-full h-screen'></video>
+    <video src="/welcome.mp4" autoPlay loop muted playsInline className='absolute -z-10 object-cover w-full h-screen'></video>
     {/* Header */}
     <main className='mx-auto flex flex-col'>
 
@@ -14,9 +14,9 @@ function App() {
         <nav className=''>
           <ul className='flex gap-6'>
             <li href="">BUSY Bar</li>
-            <li className='underline'><a href="">Boutique</a></li>
-            <li className='underline'><a href="">Téléchargements</a></li>
-            <li className='underline'><a href="">Blog</a></li>
+            <li className=' hover:underline'><a href="">Boutique</a></li>
+            <li className='hover:underline'><a href="">Téléchargements</a></li>
+            <li className='hover:underline'><a href="">Blog</a></li>
           </ul>
         </nav> 
 
